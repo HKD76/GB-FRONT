@@ -3,6 +3,10 @@
 # dependencies
 node_modules/
 
+# Lock files (ne pas commiter)
+package-lock.json
+yarn.lock
+
 # Expo
 .expo/
 dist/
@@ -31,7 +35,37 @@ yarn-error.*
 *.pem
 
 # local env files
+.env
 .env*.local
+.env.production
+.env.development
 
 # typescript
 *.tsbuildinfo
+
+# Logs
+*.log
+logs/
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+
+# Build outputs
+build/
+out/
